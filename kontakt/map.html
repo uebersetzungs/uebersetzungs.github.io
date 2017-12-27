@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Lageplan Übersetzungsbüro Alenka Rausch</title>
+	<link href="../styles/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <style type="text/css">
+    v\:* {
+      behavior:url(#default#VML);
+    }
+    </style>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAksKiMd4tLllz3XaaKHKYtRQek7XweQ0PtSKg_sJGjxdNvoN3cRQkdDWTmfYZFtE4sfRc9ifJ3RZr0g"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+        map.addControl(new GLargeMapControl());
+		map.addControl(new GMapTypeControl());
+        map.setCenter(new GLatLng(49.4041,8.6198), 16);
+ 		var route = new GPolyline.fromEncoded({
+			color: "#FF0000",
+			weight: 10,
+			points: "iirlHqrvs@tHwa@nBe@jF`DcFhUcDeAaBuAoOmRcJxJ}O~TmQhRqLfLyIhJvBzD|DrBjJxArInDzJpHnIfMhSz`@lNjRrUpO~E`EdPmU`D}Dd@}ApAPJeCdAZ",
+			levels: "BBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+			zoomFactor: 32,
+			numLevels: 4
+		}); 
+		map.addOverlay(route);
+		var icon = new GIcon();
+		icon.image = "http://www.ihr-uebersetzungsbuero.de/images/logo-bullet.gif";
+		icon.iconSize = new GSize(29, 19);
+		icon.iconAnchor = new GPoint(16, 22);
+		map.addOverlay(new GMarker(new GLatLng(49.4041,8.62), icon));
+		var lidl = new GIcon();
+		lidl.image = "http://www.ihr-uebersetzungsbuero.de/images/imageLidl.gif";
+		lidl.iconSize = new GSize(19, 20);
+		lidl.iconAnchor = new GPoint(10, 10);
+		map.addOverlay(new GMarker(new GLatLng(49.40594698987017, 8.619053363800048), lidl));
+        map.openInfoWindowHtml(map.getCenter(), "<p style=\"font-family: helvetic, arial, sans-serif;font-size: small;\"><b>Übersetzungsbüro Alenka Rausch</b><br/>Geschwister-Scholl-Str. 63<br/>69214 Eppelheim</p>");
+      }
+    }
+    //]]>
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+    <div id="map" style="width: 600px; height: 400px"></div>
+  </body>
+</html>

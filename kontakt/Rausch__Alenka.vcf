@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Rausch;Alenka
+FN:Alenka Rausch
+ORG:Übersetzungsbüro Rausch
+TEL;WORK;VOICE:06221/796420
+TEL;HOME;VOICE:06221/796419
+TEL;CELL;VOICE:0173/3278736
+TEL;PAGER;VOICE:0173/3278736
+TEL;WORK;FAX:06221/796421
+TEL;HOME;FAX:06221/796421
+ADR;WORK:;;Geschwister-Scholl-Str. 63;Eppelheim;;69214;Deutschland
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:Geschwister-Scholl-Str. 63=0D=0A69214 Eppelheim=0D=0ADeutschland
+ADR;HOME:;;Geschwister-Scholl-Str. 63;Eppelheim;;69214;Deutschland
+LABEL;HOME;ENCODING=QUOTED-PRINTABLE:Geschwister-Scholl-Str. 63=0D=0A69214 Eppelheim=0D=0ADeutschland
+URL:http://www.alenka-rausch.de
+URL:http://www.ihr-uebersetzungsbuero.de
+EMAIL;PREF;INTERNET:mail@alenka-rausch.de
+REV:20060924T090717Z
+END:VCARD
