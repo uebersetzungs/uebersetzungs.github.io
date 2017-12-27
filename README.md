@@ -1,2 +1,0 @@
-# uebersetzungs.github.io
-uebersetzungsbuero
